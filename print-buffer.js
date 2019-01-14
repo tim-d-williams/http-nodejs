@@ -17,7 +17,7 @@ function getAndPrintHTML () {
         result += data;
       })
       response.on('end', function(){
-        console.log(result);
+        console.log("Print buffer: ", result);
       })
     })
 }
